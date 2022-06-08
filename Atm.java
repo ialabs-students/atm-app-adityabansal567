@@ -103,7 +103,7 @@
 				}
 			}
 			System.out.println("Dispensed: 2000s="+with2000+",500s="+with500+",200s="+with200+",100s="+with100);
-			System.out.println("Balance: 2000s="+(balance.get(2000)-with2000)+",500s="+(balance.get(500)-with500)+",200s="+(balance.get(200)-with200)+",100s="+(balance.get(100)-with200)+", Total="+(currentbalance(balance)-temp));
+			System.out.println("Balance: 2000s="+(balance.get(2000)-with2000)+",500s="+(balance.get(500)-with500)+",200s="+(balance.get(200)-with200)+",100s="+(balance.get(100)-with100)+", Total="+(currentbalance(balance)-temp));
 		}
 	}
 		
